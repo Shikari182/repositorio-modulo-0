@@ -25,3 +25,21 @@ comando "git add ." para añadir los ficheros a fase stage, para poder hacer un
 commit con el comando "git commit -m "commit de prueba"". Después, he hecho un push
 utilizando el comando "git push -u origin master", con lo cual ya puedo ver mis 
 archivos del repositorio dentro de GitHub.
+
+4. Crear una rama.
+
+
+Para crear una nueva rama, utilizo el comando "git branch development", y para cambiar a
+ésta, el comando "git checkout development". He creado un archivo "index.html" para 
+poder realizar cambios en él, con el texto "¡Hola Mundo! Acabo de modificar este 
+archivo!". Utilizo el comando "git add ." para añadirlo a staging, seguido de un commit
+con el comando "git commit -m "modificado archivo HTML"". Para terminar, subo los cambios
+a GitHub con el comando "git push -u origin development".
+
+5. Hacer un merge.
+
+Para este último punto del proyecto, vuelvo a la rama master con el comando "git checkout
+master", y realizo un merge de la rama development sobre la rama master utilizando el 
+comando "git merge development". PAra terminar, utilizo los comandos "git add .", seguido
+de "git commit -m "Mergeada la rama development sobre la rama master", y para terminar 
+"git push origin master".

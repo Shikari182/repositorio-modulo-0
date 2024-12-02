@@ -13,4 +13,15 @@ web de GitHub con mi cuenta, y hacer click en el botón con un símbolo "+" para
 crear un nuevo repositoriom al cual le he asignado el mismo nombre que el que
 he creado en local: "repositorio-modulo-0". Una vez creado el repositorio,
 he copiado la URL del mismo y utilizado el comando "git remote add origin", 
-seguido de la URL copiada previamente.
+seguido de la URL copiada previamente. Investigando un poco por mi cuenta,
+descubrí que para comprobar la conexión entre los repositorios puedo utilizar el
+comando "git remote -v", el cual me indica la URL del repositorio linkeado a mi 
+repositorio local.
+
+3. Hacer un commit y un push.
+
+He creado una carpeta llamada "Carpeta de prueba". A continuación, ejecuto el 
+comando "git add ." para añadir los ficheros a fase stage, para poder hacer un 
+commit con el comando "git commit -m "commit de prueba"". Después, he hecho un push
+utilizando el comando "git push -u origin master", con lo cual ya puedo ver mis 
+archivos del repositorio dentro de GitHub.
